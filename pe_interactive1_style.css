@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.temp_container {
+    display: block;
+    width: auto;
+}
+
+.interactive1 {
+    max-width: 650px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1vh;
+    text-align:center;
+}
+
+.interactive_header {
+    padding-bottom: 2vh;
+    font-size: 1.15rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.interactive1_button {
+    margin: 0vw 2vw 1.5vh 0vw;
+    padding: 5px 10px;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #97c5cd;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.pe_button_active {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #3d5666;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid black;
+    cursor: auto;
+    animation: bkgColor 1s;
+    animation: textColor 0.5s;
+}
+
+@keyframes textColor {
+    from {color: black;}
+    to {color: #fff;}
+}
+
+@keyframes bkgColor {
+    from {background-color: #97c5cd;}
+    to {background-color: #3d5666;}
+  }
+
+#interactive1 {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+  }
+
+.credit {
+    width: 100%;
+    text-align: left;
+}
+
+.data_credit {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: grey;
+}
+
+.areas_button {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.interactive1_label {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+.interactive1_lightLabel {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
